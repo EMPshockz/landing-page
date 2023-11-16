@@ -86,7 +86,7 @@
 
 .ani {
     height: 250px;
-    width: 230px;
+    width: 350px;
     border: 3px solid #3882f6;
     border-radius: 10px;
     margin: 10px;
@@ -103,6 +103,9 @@
     background-color: #e5e7eb;
     padding: 70px;
     margin-top: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 p {
@@ -112,3 +115,50 @@ p {
 
 }
 
+.name {
+    align-self: flex-end;
+    margin-top: 70px;
+    font-weight: ;
+}
+
+.callaction {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 200px;
+    padding: 40px 80px 40px 80px;
+    border-radius: 5px;
+}
+
+.call {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.sig {
+    color: #43454a;
+}
+
+.btn2 {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: #F9FAF8;
+    width: 90px;
+    font-size: 15px;
+    padding: 5px 8px 5px 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+}
+
+footer {
+    color: #F9FAF8;
+}
